@@ -1,0 +1,164 @@
+/* CALL CENTER STYLES */
+
+.increase-top-padding {
+	padding-top: 50px;
+}
+
+.title-bar.increase-margin-botton {
+	
+	margin-bottom: 30px;
+}
+
+.left-input-ccform {
+	padding-right: 0.1rem;
+	padding-left: 0;
+}
+
+.right-input-ccform {
+	padding-left: 0.1rem;
+	padding-right: 0;
+}
+
+.has-success .custom-message-error {
+	color: #4BB543;
+}
+
+.has-error .custom-message-error {
+	color: #f75b50;
+}
+
+.layout-footer {
+	position: relative;
+}
+
+.layout-content-body {
+	
+	padding-bottom: 0;
+} 
+
+.form-mode-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+#success-tx-id {
+	text-align: center;
+	letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.clipboard-modal-form {
+	display: flex;
+}
+
+/* comission box */
+.comission-info-table {
+	display: flex;
+	justify-content:center;
+}
+
+.media-body h4 {
+	font-weight: 300;
+}
+
+.custom-message-error {
+	color: red;
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  margin: 4px;
+  border: 4px solid #3897e0;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #3897e0 transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#fields-config { 
+	margin-top: 20px;
+	    display: flex;
+    flex-direction: column;
+}
+
+#fields-config .panel {
+	height: 157px !important;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
+
+.sim-live-toggle-container {
+	margin-top : 10px;
+}
+
+#fields-config .urlPlayer .panel {
+	height: auto !important;
+}
+
+.urlPlayer.col-md-12 .panel .input-with-icon {
+	display: flex;
+	justify-content: center;
+}
+
+.urlPlayer.col-md-12 .panel .input-with-icon input[name="asset-1"] {
+	width: 40%;
+}
+
+
+
+.end_message_container {
+	 display: flex;
+	 justify-content: center;
+	 flex-direction: column;
+	 align-items: center;
+}
+
+.end_message_container textarea {
+	width: 40%;
+}
+
+@media(max-width: 600px) {
+	.urlPlayer.col-md-12 .panel .input-with-icon input[name="asset-1"] {
+	width: 100%;
+}
+.end_message_container textarea {
+	width: 100%;
+}
+
+.flex-container {
+	flex-direction:column;
+	align-items: center;
+	
+}
+}

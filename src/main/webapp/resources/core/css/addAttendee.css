@@ -1,0 +1,26 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+}
+
+input[type=number] {
+    -moz-appearance: textfield !important;
+}
+
+.form-control[disabled], .form-control[readonly],
+fieldset[disabled] .form-control {
+  background-color: transparent !important;
+  opacity: 1;
+}
+
+.text-affiliate {
+	display: none;
+    font-weight: 700;
+    text-align: center;
+    border-style: solid;
+    border-color: orange;
+    margin: auto;
+    padding: 5px 20px;
+    width: max-content;
+}

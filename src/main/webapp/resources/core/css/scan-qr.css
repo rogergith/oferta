@@ -1,0 +1,57 @@
+#openreader-btn
+{
+	margin-top: 1em;
+}
+
+#qrr-container
+{
+	display: none;
+}
+
+.container-camera
+{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-top: 2em;
+}
+
+.container-camera #qrr-canvas
+{
+	width: 100%;
+	max-width: 30em;
+}
+
+@media screen and (min-width: 993px)
+{
+	.container-camera #qrr-canvas
+	{
+		max-width: 40em;
+	}
+}
+
+#result .container-success .title
+{
+	font-size: 1.3em;
+	font-weight: 600;
+	text-align: left;
+}
+
+#result .container-success .items
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 1.5em;
+}
+
+#result .container-success .items .item
+{
+	width: 100%;
+	margin-top: 0.7em;
+}
+
+#result .container-success .items .item .left
+{
+	font-weight: 600;
+}

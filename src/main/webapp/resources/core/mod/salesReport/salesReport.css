@@ -1,0 +1,63 @@
+.img-icon{
+	width: 85%;
+}
+
+.sub-menu li a{
+	padding-left: 50px;
+	display: block;
+}
+
+.sub-menu2 li a{
+	padding-left: 60px;
+	display: block;
+}
+
+.caret {
+    position: absolute;
+    left: 90%;
+    top: 45%;
+}
+
+#myModal.detailsModal #modal-content-container {
+  max-width: 1350px;
+  width: auto;
+  height: 80%;
+  overflow: auto;
+}
+
+
+#details-table {
+  max-width: 1350px;
+  width: 100%;
+}
+
+#details-table_wrapper {
+  max-width: 1350px;
+  margin: auto;
+}
+
+.dataTables_scrollHeadInner {
+	width: 100% !important;
+}
+
+.table-striped {
+	width: 100% !important;
+}
+
+.error-message {
+  color: red;
+}
+
+.has-error {
+  border-color: red;
+}
+
+.form-control.has-error:focus {
+	border-color: red;
+	outline: none;
+}
+
+th {
+    white-space: nowrap !important;
+}
+

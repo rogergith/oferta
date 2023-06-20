@@ -1,0 +1,46 @@
+.img-icon{
+	width: 85%;
+}
+
+.sub-menu li a{
+	padding-left: 50px;
+	display: block;
+}
+
+.sub-menu2 li a{
+	padding-left: 60px;
+	display: block;
+}
+
+.caret {
+    position: absolute;
+    left: 90%;
+    top: 45%;
+}
+
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label {
+	color: #f75b50;
+}
+
+.has-error .form-control {
+    border-color: #f75b50;
+}
+
+.has-error .input-group-addon {
+	background-color: #f0ae9e;
+    border-color: #f75b50;
+    color: #f75b50;
+}
+
+.has-error .form-control-feedback {
+    color: #f75b50;
+}
+
+span.has-error {
+
+	color: #f75b50;
+}
+
+
+
+

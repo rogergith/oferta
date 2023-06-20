@@ -1,0 +1,32 @@
+.bulk-action {
+ 	margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+.center-item {
+	text-align: center;
+}
+
+.icon-width {
+	width: 5rem;
+    padding-left: 2rem;
+    cursor: pointer;
+}
+
+.error-message {
+  color: red;
+}
+
+.has-error {
+  border-color: red;
+}
+
+.form-control.has-error:focus {
+	border-color: red;
+	outline: none;
+}
+
+.alertFilter {
+	color: red;
+    padding: 0 1em 1em 1em;
+}

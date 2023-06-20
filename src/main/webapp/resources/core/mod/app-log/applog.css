@@ -1,0 +1,17 @@
+.container-filter-inputs {
+	display: flex;
+}
+
+.custom-message-error {
+	color:red;
+}
+
+@media (max-width: 800px) {
+	.container-filter-inputs {
+		flex-direction: column;
+	}
+	
+	.container-filter-inputs div, .input-daterange div {
+		margin-top: 10px;
+	}
+}

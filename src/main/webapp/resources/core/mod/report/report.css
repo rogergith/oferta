@@ -1,0 +1,19 @@
+.img-icon{
+	width: 85%;
+}
+
+.sub-menu li a{
+	padding-left: 50px;
+	display: block;
+}
+
+.sub-menu2 li a{
+	padding-left: 60px;
+	display: block;
+}
+
+.caret {
+    position: absolute;
+    left: 90%;
+    top: 45%;
+}

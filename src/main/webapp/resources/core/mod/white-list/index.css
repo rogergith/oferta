@@ -1,0 +1,99 @@
+.input-section{
+    margin-top: 1em;
+    float: left;
+    width: 100%;
+}
+
+.input-section input,
+.input-section select{
+    margin-top: 0em !important;
+}
+
+.myErrorModal{
+    display: block;
+    color: #f75b50 !important;
+    margin: 0px;
+    font-size: 12px;
+}
+
+
+button.loading{
+    pointer-events: none;
+    display: block !important;
+}
+
+button.loading .normal{
+    display: block;
+}
+
+button.loading .loading{
+    display: block;
+}
+
+.white-list.myErrorWhite .actions,
+.white-list.mySuccessWhite .actions,
+.white-list.loading .actions{
+    display: none;
+}
+
+.white-list .myErrorWhite,
+.white-list .mySuccessWhite,
+.white-list .loading{
+    display: none;
+}
+
+.white-list img{
+    width: 32px;
+}
+
+.white-list.loading .loading{
+    display: block;
+}
+
+.white-list.myErrorWhite .myErrorWhite{
+    display: block;
+}
+
+.white-list.mySuccessWhite .mySuccessWhite{
+    display: block;
+}
+
+ 
+
+
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin: 4px;
+    border: 3px solid #3897e0;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #3897e0 transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
